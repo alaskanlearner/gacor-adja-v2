@@ -1,6 +1,6 @@
 # baiknya hilangkan jika sudah adja1 nya
-# - hosts: all
-#   tasks:
+- hosts: all
+  tasks:
 #     - name: stop container 
 #       shell: docker container stop demo-container
 #     - name: remove container
