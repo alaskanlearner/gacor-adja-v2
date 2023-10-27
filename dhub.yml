@@ -1,12 +1,12 @@
 # baiknya hilangkan jika sudah adja1 nya
-- hosts: all
-  tasks:
-     - name: stop contaier
-       shell: docker container stop dockeransible
-     - name: remove contaier
-       shell: docker container rm dockeransible
-     - name: docker image removal
-       shell: docker image rm -f oalalif/pipeline-demo2
+# - hosts: all
+#   tasks:
+#      - name: stop contaier
+#        shell: docker container stop dockeransible
+#      - name: remove contaier
+#        shell: docker container rm dockeransible
+#      - name: docker image removal
+#        shell: docker image rm -f oalalif/pipeline-demo2
      - name: create new container
        shell: docker run -itd --name dockeradja2 oalalif/gacor-adja2
 
